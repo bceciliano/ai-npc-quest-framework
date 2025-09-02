@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93ba1ab0bb72ac948a2142abd8941f19, type: 3}
+  m_Name: Sushi Quest
+  m_EditorClassIdentifier: 
+  questID: 2
+  questName: Make Sushi!
+  questDescription: Claire is hungry and wants some sushi. You must collect all the
+    ingredients so she can fill her tummy!
+  isCompleted: 0
+  objectives:
+  - {fileID: 11400000, guid: 457b6e4edafe63e4a8f71c1ecddd0e43, type: 2}
+  - {fileID: 11400000, guid: 498649b7451056b46bc180ae6948b188, type: 2}
+  - {fileID: 11400000, guid: 34344435c0b90444a8882fe947a7dbf6, type: 2}
+  - {fileID: 11400000, guid: 21630efd76644a040af94f7977b9606c, type: 2}
+  rewards:
+  - {fileID: 11400000, guid: 39420016a2185cd4dbf719ebad2ef1a8, type: 2}
